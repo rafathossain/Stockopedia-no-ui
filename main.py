@@ -28,8 +28,8 @@ def login_to_website(url):
         WebDriverWait(browser, timeout).until(
             EC.visibility_of_element_located((By.XPATH, "//input[@class='ui huge fluid blue button']")))
         time.sleep(1)
-        browser.find_element_by_id('username').send_keys("sjjhr67@gmail.com")
-        browser.find_element_by_id('password').send_keys("Hargreaves")
+        browser.find_element_by_id('username').send_keys("")
+        browser.find_element_by_id('password').send_keys("")
         browser.find_element_by_name('remember').click()
         time.sleep(1)
         browser.find_element_by_id('auth_submit').click()
