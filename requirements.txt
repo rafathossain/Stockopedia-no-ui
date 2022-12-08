@@ -1,7 +1,7 @@
 altgraph==0.17
 bottle==0.12.18
 bottle-websocket==0.2.9
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 Eel==0.12.2
 future==0.18.2
